@@ -3,13 +3,13 @@ package Padre::Plugin::Encrypt;
 use warnings;
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Padre::Wx::Dialog ();
 use base 'Padre::Plugin';
 
 sub padre_interfaces {
-	'Padre::Plugin' => '0.18',
+	'Padre::Plugin' => '0.23',
 }
 
 sub menu_plugins_simple {
@@ -94,7 +94,7 @@ sub ok_clicked {
 	my $type = $data->{_type_};
 
 	my $main_window = Padre->ide->wx->main_window;
-	my $doc = $main_window->selected_document;
+	my $doc = $main_window->current->document;
 	my $code = $doc->text_get;
 	
 	require Crypt::CBC;
