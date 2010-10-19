@@ -1,5 +1,14 @@
 Revision history for Padre-Plugin-Encrypt
 
+0.07    2010.10.19
+        Make sure it works on latest Padre (RT #61657, RENEEB++).  (AZAWAWI)
+        Added i18n and some error handling to prevent crashes.  (AZAWAWI)
+        Fixed some build issues.  (AZAWAWI)
+        Handled various text encodings properly while decrypting.  (AZAWAWI)
+        Encrypt/Decrypt in hexadecimal to prevent data loss.  (AZAWAWI)
+        Added Arabic translation (AZAWAWI)
+        Translation files are now copied to share folder using Module::Build's share_dir
+
 0.06    2009.05.31
         removed taint mode for tests, leading to build failures (jquelin)
 
@@ -9,11 +18,11 @@ Revision history for Padre-Plugin-Encrypt
 0.04    2009.1.5
         for Padre 0.23
 
-0.03	2008.11.24
-		for 'Padre::Plugin' => '0.18'
+0.03    2008.11.24
+        for 'Padre::Plugin' => '0.18'
 
-0.02	2008.11.20
-		from use to require
+0.02    2008.11.20
+        from use to require
 
 0.01    Date/time
         First version, released on an unsuspecting world.
