@@ -21,7 +21,10 @@ requires:
   Crypt::CBC: 0
   Locale::Msgfmt: 0.14
   Padre: 0.57
-version: 0.08
+resources:
+  homepage: http://padre.perlide.org
+  repository: http://svn.perlide.org/padre/trunk/Padre-Plugin-Encrypt/
+version: 0.09
 x_Dist_Zilla:
   plugins:
     -
@@ -111,6 +114,10 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::PkgVersion
       name: PkgVersion
+      version: 4.102342
+    -
+      class: Dist::Zilla::Plugin::MetaResources
+      name: MetaResources
       version: 4.102342
     -
       class: Dist::Zilla::Plugin::MetaConfig

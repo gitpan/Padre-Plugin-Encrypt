@@ -20,7 +20,7 @@ my %module_build_args = (
     'Ahmad M. Zawawi <ahmad.zawawi@gmail.com>'
   ],
   'dist_name' => 'Padre-Plugin-Encrypt',
-  'dist_version' => '0.08',
+  'dist_version' => '0.09',
   'license' => 'perl',
   'module_name' => 'Padre::Plugin::Encrypt',
   'recommends' => {},

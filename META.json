@@ -41,7 +41,14 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.08",
+   "resources" : {
+      "homepage" : "http://padre.perlide.org",
+      "repository" : {
+         "type" : "svn",
+         "url" : "http://svn.perlide.org/padre/trunk/Padre-Plugin-Encrypt/"
+      }
+   },
+   "version" : "0.09",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -154,6 +161,11 @@
          {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
             "name" : "PkgVersion",
+            "version" : "4.102342"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MetaResources",
+            "name" : "MetaResources",
             "version" : "4.102342"
          },
          {
