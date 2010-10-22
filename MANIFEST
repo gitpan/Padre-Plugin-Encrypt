@@ -1,11 +1,15 @@
 Build.PL
 Changes
-lib/Padre/Plugin/Encrypt.pm
-MANIFEST			This list of files
-README
-share/locale/Padre__Plugin__Encrypt-ar.po
-share/locale/Padre__Plugin__Encrypt-it-it.po
-t/00-load.t
-t/pod.t
-Makefile.PL
+LICENSE
+MANIFEST
+META.json
 META.yml
+README
+dist.ini
+lib/Padre/Plugin/Encrypt.pm
+share/locale/Padre__Plugin__Encrypt-ar.mo
+share/locale/Padre__Plugin__Encrypt-it-it.mo
+t/00-compile.t
+t/00-load.t
+t/release-check-changes.t
+t/release-pod-syntax.t

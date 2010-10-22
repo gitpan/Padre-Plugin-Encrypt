@@ -1,5 +1,9 @@
 Revision history for Padre-Plugin-Encrypt
 
+0.08    2010.10.22
+        Switched to Dist::Zilla
+        Fixed 00-load.t failure when $ENV{DISPLAY} is not set
+
 0.07    2010.10.19
         Make sure it works on latest Padre (RT #61657, RENEEB++).  (AZAWAWI)
         Added i18n and some error handling to prevent crashes.  (AZAWAWI)
