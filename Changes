@@ -1,5 +1,8 @@
 Revision history for Padre-Plugin-Encrypt
 
+0.10   2010.10.27
+        t/00-load.t is magically injected by [@PadrePlugin] via [LoadTests] (AZAWAWI)
+
 0.09    2010.10.22
         Added missing meta resources after switching to Dist::Zilla (AZAWAWI)
 

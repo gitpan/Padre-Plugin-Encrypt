@@ -1,6 +1,6 @@
 package Padre::Plugin::Encrypt;
 BEGIN {
-  $Padre::Plugin::Encrypt::VERSION = '0.09';
+  $Padre::Plugin::Encrypt::VERSION = '0.10';
 }
 
 # ABSTRACT: Encrypt/decrypt files in Padre
@@ -133,12 +133,12 @@ Padre::Plugin::Encrypt - Encrypt/decrypt files in Padre
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 SYNOPSIS
 
 	$>padre
-	Plugins -> Encrypt -> 
+	Plugins -> Encrypt ->
 						  Encrypt
 						  Decrypt
 
