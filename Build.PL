@@ -20,7 +20,7 @@ my %module_build_args = (
     'Ahmad M. Zawawi <ahmad.zawawi@gmail.com>'
   ],
   'dist_name' => 'Padre-Plugin-Encrypt',
-  'dist_version' => '0.10',
+  'dist_version' => '0.11',
   'license' => 'perl',
   'module_name' => 'Padre::Plugin::Encrypt',
   'recommends' => {},
@@ -28,7 +28,6 @@ my %module_build_args = (
   'requires' => {
     'Crypt::Blowfish' => '0',
     'Crypt::CBC' => '0',
-    'Locale::Msgfmt' => '0.14',
     'Padre' => '0.57'
   },
   'script_files' => [],
